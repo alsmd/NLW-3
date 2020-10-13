@@ -1,0 +1,71 @@
+#page-landing{
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* container */
+#page-landing .content-wrapp{
+    position: relative;
+
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    max-height: 570px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    background: url('../../imgs/landing.svg') no-repeat 80% center;
+}
+/* location */
+#page-landing .content-wrapp .location{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 24px;
+    line-height: 34px;
+    display: flex;
+    flex-direction: column;
+    text-align:right;
+}
+#page-landing .content-wrapp .location strong{
+    font-weight: 800;
+}
+/* button */
+#page-landing .content-wrapp .enter-app{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    width: 80px;
+    height: 80px;
+    background: #ffd666;
+    border-radius: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+#page-landing .content-wrapp .enter-app:hover{
+    background: #96feff;
+}
+
+/* main */
+#page-landing .content-wrapp  main h1{
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 70px;
+}
+#page-landing .content-wrapp  main {
+    max-width: 350px;
+}
+#page-landing .content-wrapp  main p{
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 34px;
+}
